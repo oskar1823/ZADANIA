@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona zabezpieczona hasłem</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-container">
+            <h2>Logowanie</h2>
+            <form id="loginForm" onsubmit="return validateLogin()">
+                <label for="username">Login:</label>
+                <input type="text" id="username" name="username" required><br>
+                <label for="password">Hasło:</label>
+                <input type="password" id="password" name="password" required><br>
+                <button type="submit">Zaloguj się</button>
+            </form>
+            <p id="loginMessage"></p>
+        </div>
+    </div>
+
+    <script>
+        // Dane logowania (tutaj można umieścić prawdziwe dane)
+        const validUsername = "oskar";
+        const validPassword = "oskar";
+
+        function validateLogin() {
+            // Pobierz dane z formularza
+            const username = document.getElementById("username").value;
+            const password = document.getElementById("password").value;
+
+            // Sprawdź, czy podane dane są poprawne
+            if (username === validUsername && password === validPassword) {
+                // Jeśli dane są poprawne, przekieruj na stronę główną
+                window.location.href = "index.html";
+                return false; // Zatrzymaj wysyłanie formularza
+            } else {
+                // W przeciwnym razie wyświetl komunikat o błędzie
+                document.getElementById("loginMessage").textContent = "Nieprawidłowy login lub hasło.";
+                return false; // Zatrzymaj wysyłanie formularza
+            }
+        }
+    </script>
+</body>
+</html>
