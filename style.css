@@ -2,6 +2,71 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .link {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+    width: calc(33.33% - 20px);
+  }
+  
+  .link h3 {
+    color: #333;
+  }
+  
+  .link p {
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+ /* Pozostała część kodu CSS pozostaje taka sama */
+
+ .link a {
+    display: block;
+    text-decoration: none;
+    color: white; /* Biały kolor tekstu */
+    background-color: #007bff; /* Niebieskie tło */
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 200px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .link a:hover {
+    background-color: #0056b3; /* Ciemniejszy odcień niebieskiego */
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
     background-color: #f5f5f5;
   }
   
@@ -111,3 +176,5 @@ body {
   }
 
 
+  
+  
