@@ -213,21 +213,19 @@ body {
             cursor: pointer;
             font-size: 16px;
         }
-  #backButton {
-      position: fixed;
-      width: 50px;
-      height: 50px;
-      bottom: 30px;
-      right: 30px;
-      background-color: green;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      z-index: 9999; /* Upewnij się, że przycisk będzie na wierzchu */
-    }
+ #back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
 
-    #backButton:hover {
-      background-color: darkgreen;
-    }
+#back-to-top:hover {
+    background-color: darkgreen;
+}
