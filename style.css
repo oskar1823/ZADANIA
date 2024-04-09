@@ -219,10 +219,11 @@ body {
   right: 20px;
   background-color: green;
   color: white;
-  padding: 10px 20px;
+  padding: 5px 10px;
   border: none;
-  border-radius: 5px;
+  border-radius: 3px;
   cursor: pointer;
+  z-index: 9999; /* Upewnij się, że przycisk będzie na wierzchu */
 }
 
 #backButton:hover {
