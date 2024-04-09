@@ -183,11 +183,10 @@
     </div>
    
 <button id="backButton">Back</button>
-  <script src="script.js"></script>
 
-<script>
+ <script>
     document.getElementById('backButton').addEventListener('click', function() {
-        window.scrollTo(0, 0);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     });
   </script>
 
