@@ -215,6 +215,8 @@ body {
         }
   #backButton {
       position: fixed;
+      width: 50px;
+      height: 50px;
       bottom: 30px;
       right: 30px;
       background-color: green;
