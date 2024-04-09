@@ -164,6 +164,31 @@
     </div>
   </section>
 
+  <div class="modal-overlay" id="modalOverlay">
+        <div class="modal" id="modal">
+            <div class="modal-header">
+                <h2>Witaj na naszej stronie!</h2>
+                <span class="close" id="closeModal">&times;</span>
+            </div>
+            <div class="modal-body">
+                <p>To jest nasza fantastyczna strona internetowa. Miło Cię tutaj widzieć!</p>
+            </div>
+        </div>
+    </div>
+
+  <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const modalOverlay = document.getElementById("modalOverlay");
+            const closeModal = document.getElementById("closeModal");
+
+            modalOverlay.style.display = "block";
+
+            closeModal.addEventListener("click", function() {
+                modalOverlay.style.display = "none";
+            });
+        });
+    </script>
+
 
   <!-- Dodaj więcej sekcji dla innych dziedzin zawodowych -->
 
