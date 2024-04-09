@@ -215,13 +215,13 @@ body {
         }
   #backButton {
       position: fixed;
-      bottom: 20px;
-      right: 20px;
+      bottom: 30px;
+      right: 30px;
       background-color: green;
       color: white;
-      padding: 5px 10px;
+      padding: 10px 20px;
       border: none;
-      border-radius: 3px;
+      border-radius: 5px;
       cursor: pointer;
       z-index: 9999; /* Upewnij się, że przycisk będzie na wierzchu */
     }
