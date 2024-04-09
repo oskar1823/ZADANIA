@@ -164,7 +164,7 @@
     </div>
   </section>
 
-   <div class="modal-overlay" id="modalOverlay">
+  <div class="modal-overlay" id="modalOverlay">
         <div class="modal" id="modal">
             <div class="modal-body">
                 <h2>Witaj na naszej stronie!</h2>
@@ -177,12 +177,12 @@
     </div>
 
 
- <script>
+<script>
         document.addEventListener("DOMContentLoaded", function() {
             const modalOverlay = document.getElementById("modalOverlay");
             const closeModal = document.getElementById("closeModal");
 
-            modalOverlay.style.display = "block";
+            modalOverlay.style.display = "flex";
 
             closeModal.addEventListener("click", function() {
                 modalOverlay.style.display = "none";
