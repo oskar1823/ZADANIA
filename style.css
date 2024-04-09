@@ -189,7 +189,7 @@ body {
         .modal {
             background-color: #fff;
             width: 300px;
-            margin: 100px auto;
+            margin: auto;
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -208,6 +208,15 @@ body {
 
         .modal-body p {
             margin: 0;
+        }
+
+        .close-button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
         }
 
   
