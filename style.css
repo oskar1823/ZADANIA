@@ -235,3 +235,32 @@ nav ul li a.strona-glowna {
 #back-to-top:hover {
     background-color: darkgreen;
 }
+
+
+
+
+
+
+
+
+
+nav ul {
+  display: flex;
+  justify-content: center; /* Wyśrodkowanie elementów wzdłuż osi poziomej */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0; /* Usunięcie marginesu z ostatniego elementu */
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
