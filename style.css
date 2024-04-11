@@ -120,6 +120,7 @@ nav ul li a[href="glowna.html"] {
   
   .category h2 {
     color: #333;
+    text-align: center;
   }
   
   .tasks {
