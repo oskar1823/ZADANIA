@@ -4,8 +4,8 @@ body {
     padding: 0;
   }
 
-nav ul li a.strona-glowna {
-  font-size: 20px;
+nav ul li a[href="glowna.html"] {
+  font-size: 20px; /* Ustawienie większej wielkości czcionki dla linku "Strona Główna" */
 }
   
   header {
