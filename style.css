@@ -4,8 +4,8 @@ body {
     padding: 0;
   }
 
-#glowna{
-    text-align: center;
+nav ul li a.strona-glowna {
+  text-align: center;
 }
   
   header {
