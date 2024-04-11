@@ -8,7 +8,7 @@ h2{
 }
 
 nav ul li a[href="glowna.html"] {
-  font-size: 25px; /* Ustawienie większej wielkości czcionki dla linku "Strona Główna" */
+  font-size: 25; /* Ustawienie większej wielkości czcionki dla linku "Strona Główna" */
 }
   
   header {
