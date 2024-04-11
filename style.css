@@ -3,6 +3,9 @@ body {
     margin: 0;
     padding: 0;
   }
+h2{
+    text-align: center;
+}
 
 nav ul li a[href="glowna.html"] {
   font-size: 25px; /* Ustawienie większej wielkości czcionki dla linku "Strona Główna" */
