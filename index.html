@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Strona zabezpieczona hasłem</title>
     <link rel="stylesheet" href="style2.css">
+    <script src="script2.js"></script>
 </head>
 <body>
     <div class="container">
@@ -21,29 +22,6 @@
         </div>
     </div>
 
-    <script>
-        // Dane logowania (tutaj można umieścić prawdziwe dane)
-        const validUsername = "3i2";
-        const validPassword = "arekverse";
-
-        
-
-        function validateLogin() {
-            // Pobierz dane z formularza
-            const username = document.getElementById("username").value;
-            const password = document.getElementById("password").value;
-
-            // Sprawdź, czy podane dane są poprawne
-            if (username === validUsername && password === validPassword) {
-                // Jeśli dane są poprawne, przekieruj na stronę główną
-                window.location.href = "glowna.html";
-                return false; // Zatrzymaj wysyłanie formularza
-            } else {
-                // W przeciwnym razie wyświetl komunikat o błędzie
-                document.getElementById("loginMessage").textContent = "Nieprawidłowy login lub hasło.";
-                return false; // Zatrzymaj wysyłanie formularza
-            }
-        }
-    </script>
+    
 </body>
 </html>
