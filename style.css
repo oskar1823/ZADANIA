@@ -6,7 +6,11 @@ body {
 h2{
     text-align: center;
 }
-
+#witaj{
+    text-align: center;
+    font-size: 45px;
+    
+}
 nav ul li a[href="glowna.html"] {
   font-size: 25px; /* Ustawienie większej wielkości czcionki dla linku "Strona Główna" */
 }
