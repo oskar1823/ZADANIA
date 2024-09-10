@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #2B2B2B;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main-container {
+    display: flex;
+    height: 100vh; /* Pełna wysokość widoku */
+    margin: 20px; /* Margines wokół kontenera */
+}
+
+.island {
+    background: linear-gradient(135deg, #4E4E4E, #2B2B2B);
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Tekst na górze wyspy */
+    height: calc(100vh - 40px); /* Wysokość minus margines */
+    box-sizing: border-box;
+}
+
+.intro-text {
+    color: #F5F5F5;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav {
+    flex: 1; /* Rozciąganie na pozostałą przestrzeń */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 25px 0;
+}
+
+nav ul li a {
+    color: #E0E0E0;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background: #575757;
+    color: #FFD700;
+}
+
+.side-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px; /* Odstęp między główną wyspą a nową wyspą z tytułem */
+    flex: 1; /* Rozciąganie na pozostałą przestrzeń */
+}
+
+.header-island {
+    background: linear-gradient(135deg, #4E4E4E, #2B2B2B);
+    width: 1100px; /* Szerokość na prawie pełną szerokość widoku minus szerokość głównej wyspy i marginesy */
+    max-width: 1500px; /* Maksymalna szerokość, aby nie była zbyt szeroka */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px; /* Odstęp między tytułem a małymi wyspami */
+    text-align: center;
+    margin-right: 20px; /* Odstęp od prawej krawędzi widoku */
+    position: relative;
+    left: 0px; /* Odstęp od lewej krawędzi kontenera */
+}
+
+.header-island h1 {
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.side-islands {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Automatyczne dopasowanie kolumn */
+    gap: 20px; /* Odstęp między małymi wyspami */
+    margin-right: 20px; /* Odstęp od prawej krawędzi kontenera */
+    padding-top: 20px; /* Odstęp od góry wyspy z tytułem */
+}
+
+.side-island {
+    background: linear-gradient(135deg, #6E6E6E, #3A3A3A);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 200px; /* Minimalna szerokość dla małych wysp */
+    box-sizing: border-box;
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Dodanie przejścia */
+}
+
+/* Efekt najechania myszką na małe wyspy */
+.side-island:hover {
+    transform: scale(1.05); /* Powiększenie wyspy o 5% */
+    background: linear-gradient(135deg, #7E7E7E, #4A4A4A); /* Zmiana odcienia na jaśniejszy */
+}
+
+.side-island h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.side-island p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.btn {
+    background: #FFD700;
+    color: #000;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background: #FFC107;
+    color: #000;
+}
