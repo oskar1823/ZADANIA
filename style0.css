@@ -165,23 +165,5 @@ nav ul li a:hover {
     background: #FFC107;
     color: #000;
 }
-/* Dla urządzeń mobilnych */
-@media (max-width: 600px) {
-    body {
-        
-    }
-}
 
-/* Dla tabletów */
-@media (min-width: 601px) and (max-width: 1024px) {
-    body {
-        
-    }
-}
 
-/* Dla większych ekranów */
-@media (min-width: 1025px) {
-    body {
-        
-    }
-}
